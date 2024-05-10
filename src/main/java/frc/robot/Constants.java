@@ -22,6 +22,41 @@ package frc.robot;
  * constants are needed, to reduce verbosity.
  */
 public final class Constants {
+  public static final class Ports {
+    public static final int pigeonPort = 23;
+
+    public static final int intakeMotorPort = 4;
+
+    public static final int wristMotorPort = 5;
+    public static final int wristThroughborePort = 4;
+
+    public static final int elevatorLeaderMotorPort = 1;
+    public static final int elevatorFollowerMotorPort = 2;
+
+    public static final int elevatorThroughBoreEncoderPortA = 1;
+    public static final int elevatorThroughBoreEncoderPortB = 0;
+
+    // Left Front Ports
+    public static final int leftFrontDrivingMotorPort = 12;
+    public static final int leftFrontTurningMotorPort = 7;
+    public static final int leftFrontCanCoderPort = 18;
+
+    // Right Front Ports
+    public static final int rightFrontDriveMotorPort = 6;
+    public static final int rightFrontTurningMotorPort = 39;
+    public static final int rightFrontCanCoderPort = 17;
+
+    // Left Rear Ports
+    public static final int leftRearDriveMotorPort = 9;
+    public static final int leftRearTurningMotorPort = 11;
+    public static final int leftRearCanCoderPort = 16;
+
+    // Right Rear Ports
+    public static final int rightRearDriveMotorPort = 3;
+    public static final int rightRearTurningMotorPort = 8;
+    public static final int rightRearCanCoderPort = 15;
+  }
+
   public static final Mode currentMode = Mode.REAL;
 
   public static enum Mode {
